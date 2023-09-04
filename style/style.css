@@ -18,6 +18,10 @@ body{
 }
 .link_navbar{
     margin: auto 0 auto 0;
+    
+}
+.link_navbar:hover{
+    transform: scale(1.2);
 }
 
 .logo{
@@ -183,9 +187,11 @@ h1{
     display:flex;
     width: auto;
 }
-.fa-solid fa-envelope {
-    width: 25px;
-}
 .contact p{
+    font-size: 25px;
+}
+.contact i {
+    margin: auto;
+    padding-right: 25px;
     font-size: 25px;
 }
