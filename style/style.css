@@ -180,9 +180,11 @@ h1{
     justify-content: space-around;
 }
 .contact{
-    display: flex;
-    justify-content: space-around;
-    
+    display:flex;
+    width: auto;
+}
+.fa-solid fa-envelope {
+    width: 25px;
 }
 .contact p{
     font-size: 25px;
