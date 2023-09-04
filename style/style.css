@@ -3,7 +3,7 @@ body{
     font-family: "Gill Sans", sans-serif;
     margin: 0;
 }
-#test{
+#presentation_perso{
     background-image:url("../img/backgroud.jpg");
    background-repeat: no-repeat;
    background-size: cover;
@@ -68,7 +68,6 @@ h1{
             filter: grayscale();
 }
 
-
 .competence_container{
     display: flex;
     justify-content: space-between;  
@@ -94,7 +93,7 @@ h1{
     
 }
 .title_competence h2{
-   margin-bottom: 0;
+   margin-bottom: 20px;
     
 }
 .text_barre{
@@ -140,7 +139,7 @@ h1{
 .portfolio_title{
     padding-top: 40px;
     margin-top: 0;
-    font-size: 40px;
+    font-size: 38px;
     text-align: center;
 }
 .portfolio_p{
@@ -170,4 +169,21 @@ h1{
     font-size: 20px;
     text-align: center;
     padding: 0 10px 10px 10px;
+}
+.title_footer{
+    font-size: 26px;
+    text-align: center;
+}
+
+.contact_adress{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contact p{
+    font-size: 25px;
 }
