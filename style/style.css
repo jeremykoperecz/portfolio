@@ -20,9 +20,6 @@ body{
     margin: auto 0 auto 0;
     
 }
-.link_navbar:hover{
-    transform: scale(1.2);
-}
 
 .logo{
     font-size: 40px;
