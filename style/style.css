@@ -115,23 +115,23 @@ h1{
 
 }
 .html{
-    background-color: rgb(24, 211, 224);
+    background-color: #fa7d85;
     width: 70%;    
 }
 .css{
-    background-color: rgb(93, 247, 131);
+    background-color: #8181e6;
     width: 70%;
 }
 .javascript{
-    background-color: rgb(18, 145, 204);
+    background-color: #84fac1;
     width: 50%;
 }
 .react{
-    background-color: rgb(138, 154, 247);
+    background-color: #f0e453;
     width: 50%;
 }
 .node{
-    background-color: rgb(163, 88, 224);
+    background-color: #ff9570;
     width: 40%;
 }
 .express{
@@ -180,11 +180,11 @@ h1{
 }
 .contact_cv{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .contact_cv p {
     font-size: 25px;
-    padding: auto;
+    padding: 80px 50px 0 0;
 }
 .cv_title{
     font-size: 25px;
