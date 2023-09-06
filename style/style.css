@@ -1,18 +1,18 @@
 body{
-   
+    background-image:url("../img/backgroud.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
     font-family: "Gill Sans", sans-serif;
     margin: 0;
 }
 #presentation_perso{
-    background-image:url("../img/backgroud.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
+   
    margin-top: 0;
    padding-bottom: 100px;
    height: 600px;
 }
 .navbar{
-     background-color: rgb(132, 255, 128);
     display: flex;
     justify-content: space-around;
 }
@@ -52,21 +52,24 @@ h1{
 .presentation_container{
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 80px;
+
 }
 .presentation{
-    width: 600px;
+    width: 40%;
     font-size: 20px;
+    
 }
-.profil_photo{
-    width: 255px;
-    height: 400px;
-}
+
 .photo img{
     border-radius: 20%;
     border: 1px solid black;
     -webkit-filter: grayscale(50%);
             filter: grayscale();
+    width: 280px;
+    height: 350px;
+    
+     
 }
 
 .competence_container{
@@ -76,9 +79,10 @@ h1{
 .img_competence{
     width: 40%;
     height: 550px;
-    background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../img/comp.jpg");
+    border-radius: 10%;
+    margin-left: 30px;
 }
 .barre_competence{
     padding: 10px 10px 40px 10px;
@@ -86,7 +90,7 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
-    background-color: rgba(99, 212, 118, 0.658);
+    
 }
 .title_competence{
     font-size: 25px;
@@ -134,9 +138,8 @@ h1{
     background-color: rgb(13, 185, 197);
     width: 40%;
 }
-#portfolio{
-    background-color: rgb(199, 202, 202);
-}
+
+
 .portfolio_title{
     padding-top: 40px;
     margin-top: 0;
@@ -156,12 +159,13 @@ h1{
 }
 .portfolio_exemple{
     width: 15%;
+    
     border: 2px solid black;
     border-radius: 20px;
+    background-color: white;
+    
 }
 .portfolio_img{
-    -o-object-fit: fill;
-       object-fit: fill;
        overflow: hidden;
        height: 60%;
        border-radius: 20px 20px 0 0;
@@ -171,9 +175,33 @@ h1{
     text-align: center;
     padding: 0 10px 10px 10px;
 }
+#cv{
+    margin-bottom: 40px;
+}
+.contact_cv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact_cv p {
+    font-size: 25px;
+    padding: auto;
+}
+.cv_title{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer{
+    margin-bottom: 40px;
+}
 .title_footer{
     font-size: 26px;
     text-align: center;
+    
+}
+.title_footer h2 {
+    margin: 0 0 20px 0;
 }
 
 .contact_adress{
