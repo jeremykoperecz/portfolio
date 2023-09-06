@@ -149,6 +149,7 @@ h1{
 .portfolio_p{
     font-size: 20px;
     text-align: center;
+    
 }
 .portfolio_projet{
     display: flex;
@@ -159,10 +160,10 @@ h1{
 }
 .portfolio_exemple{
     width: 15%;
-    
+    background-color: #84fac1;
     border: 2px solid black;
     border-radius: 20px;
-    background-color: white;
+    
     
 }
 .portfolio_img{
