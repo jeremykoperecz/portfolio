@@ -45,6 +45,9 @@
     .title_barres{
         margin: auto auto 15px auto;
     }
+    .title_competence{
+        margin-bottom: 20px;
+    }
     .img_competence{
         height: 250px;
         width: auto;
@@ -53,5 +56,39 @@
     }
     .portfolio_title{
         padding: 0;
+    }
+    .contact_cv{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+          
+    }
+    .cv_title{
+        margin: 0;
+    }
+    .contact_cv p {
+        margin-top: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .contact_cv a {
+        display: flex;
+        justify-content: center;
+    }
+    .contact_container{
+        display: flex;
+        justify-content: first baseline;
+        
+        
+    }
+    .contact_adress{
+        display: flex;
+        flex-direction: column;
+    } 
+    .contact_adress{
+        margin: auto;
+    }
+    .contact i {
+        margin: 30px 0 0 40px;
     }
 }
