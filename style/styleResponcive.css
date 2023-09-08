@@ -1,0 +1,27 @@
+@media screen and (max-width: 939px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+      margin: auto;  
+    }
+    .main_menu{
+        display: flex;
+        justify-content: center;
+    }
+    .presentation_container{
+        margin-top: 5px;
+        max-height: auto;
+    }
+    .presentation{
+        padding: 0;
+    }
+    .profil_photo{
+        padding-top: 40px;
+        
+    }
+    .competence_container{
+        padding-top: 70px;
+    }
+}
