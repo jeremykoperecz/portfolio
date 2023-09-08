@@ -66,14 +66,15 @@
     .cv_title{
         margin: 0;
     }
-    .contact_cv p {
-        margin-top: 0;
-        padding: 0;
-        text-align: center;
-    }
     .contact_cv a {
         display: flex;
         justify-content: center;
+        margin: 0 0 80px 0;
+    }
+    .contact_cv img{
+        width: 350px;
+        height: 250px;
+        margin: auto;
     }
     .contact_container{
         display: flex;
@@ -86,7 +87,7 @@
         flex-direction: column;
     } 
     .contact_adress{
-        margin: auto;
+        margin: auto939;
     }
     .contact i {
         margin: 30px 0 0 40px;

@@ -168,7 +168,7 @@ h1{
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: auto;
-    padding: 50px 0 30px 0;
+    padding: 20px 0 30px 0;
     
 }
 .portfolio_exemple{
@@ -203,9 +203,7 @@ h1{
     margin: 100px 50px;
     padding: 8px;
     border-radius: 25px;
-    background-color:rgb(211, 211, 211) ;
-    
-    
+    background-color:rgb(211, 211, 211) ;  
 }
 .cv_title{
     font-size: 25px;
