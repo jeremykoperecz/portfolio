@@ -196,9 +196,16 @@ h1{
     display: flex;
     justify-content: center;
 }
-.contact_cv p {
+.contact_cv a {
+    height: 30px;
     font-size: 25px;
-    padding: 80px 50px 0 0;
+    border: 1px solid black;
+    margin: 100px 50px;
+    padding: 8px;
+    border-radius: 25px;
+    background-color:rgb(211, 211, 211) ;
+    
+    
 }
 .cv_title{
     font-size: 25px;
