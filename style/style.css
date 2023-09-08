@@ -5,6 +5,7 @@ body{
    background-attachment: fixed;
     font-family: "Gill Sans", sans-serif;
     margin: 0;
+    height: 100%;
 }
 #presentation_perso{
    
@@ -49,6 +50,10 @@ h1{
 .title-container p{
     font-size: 35px;
 }
+#presentation_perso{
+    height: auto;
+    padding: 0;
+}
 .presentation_container{
     display: flex;
     justify-content: space-around;
@@ -59,14 +64,13 @@ h1{
     font-size: 20px;
     text-align: center;
     margin: auto;
-    padding-left: 50px;   
+    width: 50%;
+       
 }
 .profil_photo{
     margin: auto;
 }
-.photo{
-    padding-left: 100px;
-}
+
 
 .photo img{
     border-radius: 20%;
@@ -77,24 +81,26 @@ h1{
     height: 350px;
 }
 
+
 .competence_container{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    
 }
 .img_competence{
-    width: 40%;
-    height: 550px;
+    width: 650px;
+    height: auto;
     background-size: cover;
     background-image: url("../img/comp.jpg");
     border-radius: 10%;
     margin-left: 30px;
 }
 .barre_competence{
-    padding: 10px 10px 40px 10px;
+    margin: auto;
     width: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    
     
 }
 .title_competence{
@@ -109,10 +115,11 @@ h1{
 .text_barre{
     display: flex;
     justify-content: space-between;
-    padding: 0 10px 0 10px;  
+    padding: 0 10px 0 10px;
+    
 }
 .title_barres{
-    margin-left: 100px;
+    margin:  10px 0 10px 100px;
     width: 80%;
     background-color: rgb(241, 241, 241);
     border-radius: 25px;
@@ -158,7 +165,7 @@ h1{
 }
 .portfolio_projet{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: auto;
     padding: 50px 0 30px 0;
@@ -169,6 +176,7 @@ h1{
     background-color: #84fac1;
     border: 2px solid black;
     border-radius: 20px; 
+    margin-top: 20px;
 }
 .portfolio_img{
        overflow: hidden;

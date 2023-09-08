@@ -1,3 +1,13 @@
+@media screen and (max-width: 1100px){
+    .presentation_container{
+        display: flex;
+        flex-direction: column-reverse;  
+    } 
+    .presentation{
+        padding: 0;
+        width: auto;
+    }   
+}
 @media screen and (max-width: 939px) {
     .navbar{
         display: flex;
@@ -11,17 +21,37 @@
         justify-content: center;
     }
     .presentation_container{
-        margin-top: 5px;
-        max-height: auto;
+        margin: auto;
+        height: auto;
+        
     }
     .presentation{
         padding: 0;
+        width: auto;
     }
     .profil_photo{
         padding-top: 40px;
         
     }
     .competence_container{
-        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .barre_competence{
+        width: 100%;
+        
+    }
+    .title_barres{
+        margin: auto auto 15px auto;
+    }
+    .img_competence{
+        height: 250px;
+        width: auto;
+        margin: 0;
+        border-radius: 0;
+    }
+    .portfolio_title{
+        padding: 0;
     }
 }
