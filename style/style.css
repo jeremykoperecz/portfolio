@@ -20,7 +20,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    font-size: calc(8px + 1.2vw);
+    font-size: calc(12px + 0.8vw);
       
 }
 nav h3{
@@ -47,6 +47,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     width: 40%;
+    padding: 0;
 }
 #icons {
     cursor: pointer;
