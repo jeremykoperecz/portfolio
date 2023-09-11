@@ -134,34 +134,41 @@ h1{
 .title_barres{
     margin:  10px 0 10px 100px;
     width: 80%;
-    background-color: rgb(211, 211, 211);
+    background: white;
+    box-shadow: inset -15px -15px 15px 0px #84fac1;
     border-radius: 25px;
-    box-shadow: rgba(124, 124, 124, 0.45) 0px 15px 20px -15px;
+    
 
 }
 .html{
     background-color: #fa7d85;
-    width: 70%;    
+    width: 70%; 
+    border-radius: 0 25px 25px 0;   
 }
 .css{
     background-color: #8181e6;
     width: 70%;
+    border-radius: 0 25px 25px 0;
 }
 .javascript{
     background-color: #84fac1;
     width: 50%;
+    border-radius: 0 25px 25px 0;
 }
 .react{
     background-color: #f0e453;
     width: 50%;
+    border-radius: 0 25px 25px 0;
 }
 .node{
     background-color: #ff9570;
     width: 40%;
+    border-radius: 0 25px 25px 0;
 }
 .express{
     background-color: rgb(13, 185, 197);
     width: 40%;
+    border-radius: 0 25px 25px 0;
 }
 
 
@@ -190,6 +197,11 @@ h1{
     border: 2px solid black;
     border-radius: 20px; 
     margin-top: 20px;
+    transition: transform .8s ease; 
+}
+.portfolio_exemple:hover{
+    transform:scale(1.1);
+   
 }
 .portfolio_img{
        overflow: hidden;
