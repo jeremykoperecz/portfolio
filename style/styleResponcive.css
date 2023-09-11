@@ -23,23 +23,21 @@
     nav ul{
         position: fixed;
         left: -100%;
-        top: 5%;
+        top: 16px;
         flex-direction: column;
         width: 100%;
         text-align: center;
         transition: 0.25;
+
     }
     nav li {
         padding: 3px 0;
-    }
-    nav li:hover{
-        background: #84fac1;
     }
     .active #icons:before{
         content:"\2715"
     }
     nav.active ul{
-        left: 0;
+        left: 100px;
     }
     .main_menu{
         display: flex;
@@ -103,20 +101,17 @@
         height: 250px;
         margin: auto;
     }
-    .contact_container{
-        display: flex;
-        justify-content: first baseline;
-        
-        
-    }
+    
     .contact_adress{
         display: flex;
         flex-direction: column;
+        
     } 
     .contact_adress{
-        margin: auto939;
+        margin: auto;
     }
-    .contact i {
-        margin: 22px 0 0 40px;
+    .contact{
+        margin: auto;
+
     }
 }
