@@ -5,8 +5,9 @@ body{
    background-attachment: fixed;
     font-family: "Gill Sans", sans-serif;
     margin: 0;
-    width: 100%;
-    box-sizing: border-box;
+    padding: 0;
+    
+    
 }
 #presentation_perso{
    
@@ -14,43 +15,53 @@ body{
    padding-bottom: 100px;
    height: 600px;
 }
-.navbar{
+nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-size: calc(8px + 1.2vw);
+      
 }
-.link_navbar{
-    margin: auto 0 auto 0;
-    
+nav h3{
+    font-size: calc(15px + 1.2vw);
+}
+li{
+    list-style: none; 
+    transition: transform .2s ease;   
+}
+li:hover{
+    transform: scale(1.08);
+}
+a,
+a:visited {
+    color: black;
+    text-decoration: none; 
+    transition: transform .2s ease; 
+}
+a:hover{
+    transform: scale(1.08);
 }
 
-.logo{
-    font-size: 40px;
-    margin-left: 150px;
-}
-.main_menu{
+nav ul {
     display: flex;
-    font-size: 25px;
-    list-style: none; 
-    padding: auto;
+    justify-content: space-between;
+    width: 40%;
 }
-.main_menu li{
-    padding-right:50px; 
+#icons {
+    cursor: pointer;
+    display: none;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
+
 h1{
-    font-size: 55px;
+    font-size: calc(25px + 2vw);
 }
 .title-container{
     text-align: center;
     padding-top: 50px;
     
 }
-.title-container p{
-    font-size: 35px;
-}
+
 #presentation_perso{
     height: auto;
     padding: 0;
@@ -105,7 +116,7 @@ h1{
     
 }
 .title_competence{
-    font-size: 25px;
+    font-size: calc(15px + 0.8vw);
     text-align: center;
     
 }
@@ -156,7 +167,7 @@ h1{
 .portfolio_title{
     padding-top: 40px;
     margin-top: 40px;
-    font-size: 38px;
+    font-size: calc(18px + 1.8vw);
     text-align: center;
 }
 .portfolio_p{
@@ -207,16 +218,17 @@ h1{
     background-color:rgb(211, 211, 211) ;  
 }
 .cv_title{
-    font-size: 25px;
+    font-size: calc(15px + 0.6vw);
     text-align: center;
     margin-bottom: 40px;
 }
 
 footer{
+    height: 250px;
     margin-bottom: 40px;
 }
 .title_footer{
-    font-size: 26px;
+    font-size: calc(15px + 0.6vw);
     text-align: center;
     
 }
@@ -227,13 +239,15 @@ footer{
 .contact_adress{
     display: flex;
     justify-content: space-around;
+    margin-top: 60px;
 }
 .contact{
     display:flex;
     width: auto;
+    
 }
 .contact p{
-    font-size: 25px;
+    font-size: calc(15px + 0.8vw);
 }
 .contact i {
     margin: auto;
