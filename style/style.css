@@ -75,8 +75,6 @@ h1{
 }
 .presentation{
     font-size: 20px;
-    -webkit-text-decoration: double;
-            text-decoration: double;
     margin: auto;
     width: 50%;
        
@@ -136,7 +134,7 @@ h1{
     margin:  10px 0 10px 100px;
     width: 80%;
     background: white;
-    box-shadow: inset -15px -15px 15px 0px #84fac1;
+    box-shadow: inset -15px -15px 15px 0px rgb(211, 211, 211);
     border-radius: 25px;
     
 
