@@ -75,7 +75,8 @@ h1{
 }
 .presentation{
     font-size: 20px;
-    text-align: center;
+    -webkit-text-decoration: double;
+            text-decoration: double;
     margin: auto;
     width: 50%;
        
