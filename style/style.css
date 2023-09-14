@@ -195,12 +195,10 @@ h1{
     border: 2px solid black;
     border-radius: 20px; 
     margin-top: 20px;
-    transition: transform .8s ease; 
+    transition: transform .5s ease; 
 }
-.portfolio_exemple:hover{
-    transform:scale(1.1);
-   
-}
+
+
 .portfolio_img{
        overflow: hidden;
        height: 60%;
@@ -268,4 +266,11 @@ footer{
     margin: auto;
     padding-right: 25px;
     font-size: 25px;
+}
+
+
+.test2 {
+   
+    border: 12px black solid;
+   
 }
