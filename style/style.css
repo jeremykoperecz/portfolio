@@ -233,9 +233,18 @@ h1{
 .portfolio_legend{
     font-size: 20px;
     text-align: center;
-   /* padding: 30px 10px 10px 10px;*/
    margin: 20px 10px auto 10px;
 }
+.portfolio_legend i{
+    font-size: calc(18px + 0.8vw);
+    display: none;
+    flex-direction: column;
+    padding-top: 15px;
+    
+    
+
+}
+
 #cv{
     margin-bottom: 40px;
 }
@@ -296,7 +305,7 @@ footer{
 
 
 .test2 {
-   
-    border: 12px black solid;
-   
+   display: block;
+   background: #8181e6;
+
 }
