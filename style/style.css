@@ -20,11 +20,10 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    font-size: calc(12px + 0.8vw);
-      
+    font-size: calc(12px + 0.8vw);    
 }
 nav h3{
-    font-size: calc(15px + 1.2vw);
+    font-size: calc(15px + 1.2vw);  
 }
 li{
     list-style: none; 
@@ -174,7 +173,7 @@ h1{
 .portfolio_title{
     padding-top: 40px;
     margin-top: 40px;
-    font-size: calc(18px + 1.8vw);
+    font-size: calc(18px + 1.6vw);
     text-align: center;
 }
 .portfolio_p{
@@ -216,15 +215,19 @@ h1{
 #cv{
     margin-bottom: 40px;
 }
+.cv_container{
+    display: flex;
+    justify-content: center;
+}
 .contact_cv{
     display: flex;
     justify-content: center;
 }
 .contact_cv a {
-    height: 30px;
-    font-size: 25px;
+    height: auto;
+    font-size: calc(12px + 0.8vw);
     border: 1px solid black;
-    margin: 100px 50px;
+    margin: auto 80px auto ;
     padding: 8px;
     border-radius: 25px;
     background-color:rgb(211, 211, 211) ;  

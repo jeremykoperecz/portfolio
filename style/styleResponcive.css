@@ -90,6 +90,14 @@
     .cv_title{
         margin: 0;
     }
+    .cv_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .cv_img{
+        display: none;
+
+    }
     .contact_cv a {
         display: flex;
         justify-content: center;
@@ -97,8 +105,8 @@
         width: auto;
     }
     .contact_cv img{
-        width: 350px;
-        height: 250px;
+        width: auto;
+        height: auto;
         margin: auto;
     }
     
