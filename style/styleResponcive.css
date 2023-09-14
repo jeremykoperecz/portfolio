@@ -81,6 +81,9 @@
     .portfolio_title{
         padding: 0;
     }
+    .portfolio_exemple{
+        height: 250px;
+    }
     .contact_cv{
         display: flex;
         justify-content: center;
