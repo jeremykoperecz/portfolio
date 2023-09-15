@@ -3,7 +3,6 @@ const tests3 = document.querySelectorAll(".portfolio_exemple");
 const tests4 = document.querySelectorAll(".portfolio_legend p");
 
 
-console.log(tests4);
 
 
 

@@ -288,15 +288,15 @@ footer{
     padding-right: 25px;
     font-size: 25px;
 }
-.test1{
-    display: none;
-}
+
+
 .test2 {  
-    background-image: url(/img/img_cv.jpg);
     transition:  1.2s ease-in-out;
     opacity: 0;
 }
-.test2:hover{
-    
+.test2:hover{   
     transform:rotateY(360deg);  
+}
+.prout{
+    display: none;
 }
