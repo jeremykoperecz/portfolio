@@ -1,5 +1,9 @@
 const links = document.querySelectorAll("nav li");
+const tests3 = document.querySelectorAll(".portfolio_exemple");
+const tests4 = document.querySelectorAll(".portfolio_legend p");
 
+
+console.log(tests4);
 
 
 
@@ -14,22 +18,9 @@ links.forEach(link => {
 });
 
 
-/*const img = document.querySelector(".portfolio_legend")
-
-img.addEventListener("mouseover", () => {
-    img.classList.add("test2");
-    img.addEventListener("mouseout", () => {
-        img.classList.remove("test2");
-    });
-});*/
 
 
-
-
-
-const tests = document.querySelector(".portfolio_legend i")
-console.log(tests)
-tests.forEach(test => {
+tests4.forEach(test => {
     test.addEventListener("mouseover", () => {
         test.classList.add("test2");
         test.addEventListener("mouseout", () => {
@@ -38,3 +29,4 @@ tests.forEach(test => {
     });
 
 })
+
