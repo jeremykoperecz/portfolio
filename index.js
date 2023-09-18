@@ -1,6 +1,6 @@
+
 const links = document.querySelectorAll("nav li");
-const tests3 = document.querySelectorAll(".portfolio_exemple");
-const tests4 = document.querySelectorAll(".portfolio_legend p");
+
 
 
 
@@ -17,15 +17,14 @@ links.forEach(link => {
 });
 
 
-
-
-tests4.forEach(test => {
-    test.addEventListener("mouseover", () => {
-        test.classList.add("test2");
-        test.addEventListener("mouseout", () => {
-            test.classList.remove("test2");
+document.querySelectorAll(".portfolio_exemple").forEach(card => {
+    card.addEventListener("mouseover", e => {
+        e.currentTarget.classList.add("hover");
+        card.addEventListener("mouseout", e => {
+        e.currentTarget.classList.remove("hover");
         });
     });
+});
 
-})
+
 
