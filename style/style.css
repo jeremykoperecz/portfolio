@@ -239,7 +239,7 @@ h1{
 }
 
 .hover{
-    background-color: #84fac1;
+    background:radial-gradient(circle, rgb(255, 255, 255) 3%, rgba(132,250,193,1) 100%);
     transition: 0.7s;
 }
 .hover .portfolio_legend i{
