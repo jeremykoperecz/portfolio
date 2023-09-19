@@ -3,7 +3,7 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
-    font-family: "Gill Sans", sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     
@@ -20,8 +20,58 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    font-size: calc(12px + 0.8vw);    
+    font-size: calc(12px + 0.8vw);
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;    
 }
+@-webkit-keyframes bounceInLeft {
+    0%, 60%, 75%, 90%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+    }
+    60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+    }
+    75% {
+    transform: translate3d(-10px, 0, 0);
+    }
+    90% {
+    transform: translate3d(5px, 0, 0);
+    }
+    100% {
+    transform: none;
+    }
+    }
+    @keyframes bounceInLeft {
+    0%, 60%, 75%, 90%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+    }
+    60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+    }
+    75% {
+    transform: translate3d(-10px, 0, 0);
+    }
+    90% {
+    transform: translate3d(5px, 0, 0);
+    }
+    100% {
+    transform: none;
+    }
+    } 
 nav h3{
     font-size: calc(15px + 1.2vw);  
 }
@@ -55,12 +105,76 @@ nav ul {
 
 h1{
     font-size: calc(25px + 2vw);
+    -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+ 
 }
+@-webkit-keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    
+    0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+    }
+    
+    60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+    }
+    
+    75% {
+    transform: translate3d(0, -10px, 0);
+    }
+    
+    90% {
+    transform: translate3d(0, 5px, 0);
+    }
+    
+    100% {
+    transform: none;
+    }
+    }
+    
+    @keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    
+    0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+    }
+    
+    60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+    }
+    
+    75% {
+    transform: translate3d(0, -10px, 0);
+    }
+    
+    90% {
+    transform: translate3d(0, 5px, 0);
+    }
+    
+    100% {
+    transform: none;
+    }
+    } 
+    
 .title-container{
     text-align: center;
     padding-top: 50px;
     
 }
+
 
 #presentation_perso{
     height: auto;
@@ -134,8 +248,8 @@ h1{
     background: white;
     box-shadow: inset -15px -15px 15px 0px rgb(211, 211, 211);
     border-radius: 0 25px 25px 0;
-    -webkit-animation: myAnim 2s ease 0s 1 normal forwards;
-            animation: myAnim 2s ease 0s 1 normal forwards;
+    -webkit-animation: myAnim 2.5s ease 0s 1 normal forwards;
+            animation: myAnim 2.5s ease 0s 1 normal forwards;
 }
 @-webkit-keyframes myAnim {
 	0% {
@@ -431,6 +545,8 @@ footer{
     padding-right: 25px;
     font-size: 25px;
 }
+
+
 
 
 
