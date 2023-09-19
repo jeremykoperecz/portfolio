@@ -1,12 +1,6 @@
-
-
-
 icons.addEventListener("click", () => {
     nav.classList.toggle("active");
 });
-
-
-
 
 document.querySelectorAll("nav li").forEach(link => {
     link.addEventListener("click", () => {
@@ -26,3 +20,11 @@ document.querySelectorAll(".portfolio_exemple").forEach(card => {
 
 
 
+const cvlink = document.querySelector(".contact_cv a");
+cvlink.addEventListener("mouseover", () => {
+    cv.classList.add("hovercv");
+    cvlink.addEventListener("mouseout", () => {
+        cv.classList.remove("hovercv");
+        
+    });
+});

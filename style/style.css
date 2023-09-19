@@ -36,7 +36,7 @@ a,
 a:visited {
     color: rgb(0, 0, 0);
     text-decoration: none; 
-    transition: transform .2s ease; 
+    transition: transform .5s ease; 
 }
 a:hover{
     transform: scale(1.08);
@@ -237,10 +237,10 @@ h1{
 .portfolio_legend i{
     display: none;  
 }
-
 .hover{
     background:radial-gradient(circle, rgb(255, 255, 255) 3%, rgba(132,250,193,1) 100%);
     transition: 0.7s;
+    transform: scale(1.08);
 }
 .hover .portfolio_legend i{
     display: block;
@@ -260,7 +260,28 @@ h1{
 .contact_cv{
     display: flex;
     justify-content: center;
+    
 }
+.contact_cv i{
+    display: none;
+    
+}
+.hovercv .contact_cv i{
+    display: block;
+    margin:20px;
+    
+}
+.contact_cv p{
+    margin: auto;
+}
+.hovercv .contact_cv p{
+    display: none;
+}
+.hovercv .contact_cv a{
+    background:radial-gradient(circle, rgb(255, 255, 255) 3%, rgba(132,250,193,1) 100%);
+    transition: 0.7s;
+}
+
 .contact_cv a {
     height: auto;
     font-size: calc(12px + 0.8vw);
@@ -309,12 +330,4 @@ footer{
 }
 
 
-.hover .portfolio_legend i{
-    display: block;
-    padding-top: 30px;
-    font-size: 35px;
-}
-.hover .portfolio_legend p {
-    display: none;
-}
 
