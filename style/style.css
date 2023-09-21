@@ -104,6 +104,7 @@ nav ul {
 }
 
 h1{
+    text-transform: uppercase;
     font-size: calc(25px + 2vw);
     -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;
