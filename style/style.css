@@ -5,10 +5,9 @@ body{
    background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
-    
-    
+    padding: 0;   
 }
+/*navbar*/
 #presentation_perso{
    
    margin-top: 0;
@@ -102,7 +101,7 @@ nav ul {
     cursor: pointer;
     display: none;
 }
-
+/*titre*/
 h1{
     text-transform: uppercase;
     font-size: calc(25px + 2vw);
@@ -176,7 +175,7 @@ h1{
     
 }
 
-
+/*presentation de ma personne*/
 #presentation_perso{
     height: auto;
     padding: 0;
@@ -207,7 +206,7 @@ h1{
     height: 350px;
 }
 
-
+/*barres de competences*/
 .competence_container{
     display: flex;
     justify-content: space-between;
@@ -387,7 +386,7 @@ h1{
     border-radius: 0 25px 25px 0;
 }
 
-
+/*partie projets*/
 .portfolio_title{
     padding-top: 40px;
     margin-top: 40px;
@@ -468,6 +467,7 @@ h1{
 .hover .portfolio_legend p {
     display: none;
 }
+/*partie cv*/
 #cv{
     margin-bottom: 40px;
 }
@@ -514,7 +514,7 @@ h1{
     text-align: center;
     margin-bottom: 40px;
 }
-
+/*footer*/
 footer{
     height: 250px;
     margin-bottom: 40px;
