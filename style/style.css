@@ -242,8 +242,12 @@ h1{
     justify-content: space-between;
     padding: 0 10px 0 10px;   
 }
+.text_barre p{
+    margin-top: 10px;
+}
 .title_barres{
-    margin:  10px 0 10px 100px;
+    height: 35px;
+    margin:  5px 0 10px 100px;
     width: 80%;
     background: white;
     box-shadow: inset -15px -15px 15px 0px rgb(211, 211, 211);
@@ -354,35 +358,63 @@ h1{
 	}
 }
 .html{
+    height: 35px;
     background-color: #fa7d85;
-    width: 70%; 
+    width: 80%; 
     border-radius: 0 25px 25px 0;  
 }
-
-
 .css{
+    height: 35px;
     background-color: #8181e6;
-    width: 70%;
+    width: 80%;
     border-radius: 0 25px 25px 0;
 }
 .javascript{
+    height: 35px;
     background-color: #84fac1;
-    width: 50%;
+    width: 60%;
     border-radius: 0 25px 25px 0;
 }
 .react{
-    background-color: #f0e453;
-    width: 50%;
+    height: 35px;
+    background-color: #c7af27;
+    width: 60%;
     border-radius: 0 25px 25px 0;
 }
 .node{
+    height: 35px;
     background-color: #ff9570;
-    width: 40%;
+    width: 50%;
     border-radius: 0 25px 25px 0;
 }
 .express{
+    height: 35px;
     background-color: rgb(13, 185, 197);
-    width: 40%;
+    width: 50%;
+    border-radius: 0 25px 25px 0;
+}
+.git{
+    height: 35px;
+    background-color: rgb(255, 228, 137);
+    width: 70%;
+    border-radius: 0 25px 25px 0;
+}
+.sass{
+    height: 35px;
+    background-color: rgb(220, 250, 114);
+    width: 70%;
+    border-radius: 0 25px 25px 0;
+}
+.wordpress{
+    height: 35px;
+    background-color: rgb(212, 53, 53);
+    width: 70%;
+    border-radius: 0 25px 25px 0;
+}
+.seo{
+    height: 35px;
+    background-color: rgb(65, 94, 255);
+    width: 60%;
     border-radius: 0 25px 25px 0;
 }
 
